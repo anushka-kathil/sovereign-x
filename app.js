@@ -312,10 +312,6 @@ function showSolution(preset, engineName, isMILP) {
 
     // Build solution HTML
     let html = `
-        <div class="result-status optimal">
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="currentColor" stroke-width="1.5"/><path d="M4 7l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            OPTIMAL
-        </div>
         <div class="result-objective">${obj}</div>
         <div class="result-obj-label">Optimal Objective Value</div>
         <div class="result-vars">
